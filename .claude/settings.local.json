@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm install:*)",
+      "Bash(tsc --watch:*)",
+      "Bash(dir:*)",
+      "Bash(mkdir:*)",
+      "Bash(copy code.ts backup-original )",
+      "Bash(copy:*)",
+      "Bash(npm run build:*)",
+      "WebFetch(domain:plugma.dev)",
+      "WebFetch(domain:github.com)",
+      "Bash(cat:*)",
+      "Bash(npm run dev:*)",
+      "Bash(move teste01 figma-plugin-starterkit)",
+      "WebSearch",
+      "Bash(npm run lint:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
