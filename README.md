@@ -71,6 +71,23 @@ npm run dev
 
 ---
 
+## 🎥 Veja o Plugin em Ação
+
+[![Demonstração do Plugin](https://cdn.loom.com/sessions/thumbnails/c14dc9d30025425fbc8b6f251b83b00e-with-play.gif)](https://www.loom.com/share/c14dc9d30025425fbc8b6f251b83b00e)
+
+**[👉 Assista ao vídeo completo no Loom](https://www.loom.com/share/c14dc9d30025425fbc8b6f251b83b00e)**
+
+Neste vídeo de demonstração você verá:
+- ⚡ Setup e instalação em menos de 2 minutos
+- 🎨 Dark mode e light mode em ação
+- 🌍 Sistema de multi-idioma (PT-BR, ES, EN)
+- 🔐 Fluxo completo de autenticação
+- 💎 Upgrade screen e waitlist
+- ⚙️ Tela de configurações com versionamento
+- 🎯 Exemplo prático: criando retângulos coloridos
+
+---
+
 ## 📦 O que está incluído
 
 ### 🎨 Core
