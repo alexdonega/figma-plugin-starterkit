@@ -621,27 +621,6 @@ Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-## 🙏 Agradecimentos
-
-Este projeto não existiria sem:
-
-### 🎓 Inspirações
-- **[Figma](https://www.figma.com/)** - Por criar a melhor ferramenta de design
-- **[Vercel](https://vercel.com/)** - Developer experience de referência
-- **[shadcn/ui](https://ui.shadcn.com/)** - Inspiração para estrutura de componentes
-
-### 🛠️ Ferramentas Essenciais
-- **[Vite](https://vitejs.dev/)** - Build tool que tornou tudo possível
-- **[Plugma](https://plugma.dev/)** - CLI que simplificou o desenvolvimento
-- **[React](https://react.dev/)** - Library UI mais popular do mundo
-
-### 💬 Comunidade
-- Membros da comunidade Figma pelo feedback
-- Early adopters que testaram desde o MVP
-- Contribuidores que enviaram PRs e issues
-
----
-
 ## 📬 Contato
 
 ### 💼 Parcerias e Negócios
