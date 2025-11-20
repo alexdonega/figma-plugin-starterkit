@@ -850,6 +850,24 @@ O figma-plugin-ds é o que dá a este starter kit sua aparência profissional e 
 
 ---
 
+### 📚 **Sophie** - Figma Education Team
+
+Um agradecimento muito especial à **Sophie** da equipe de educação do Figma pela criação do curso gratuito **["Build your first plugin"](https://www.youtube.com/watch?v=4G9RHt2OyuY&list=PLXDU_eVOJTx5YBAszyuOTyxlgIxkQVyii&index=2)**.
+
+Sophie, seu trabalho em tornar o desenvolvimento de plugins Figma acessível para todos é inspirador. O curso que você criou é a porta de entrada perfeita para milhares de desenvolvedores que querem começar a criar plugins.
+
+**Obrigado por:**
+- 🎓 **Curso completo e gratuito** - Conteúdo educacional de alta qualidade disponível para toda comunidade
+- 🎬 **Didática clara** - Explicações que tornam conceitos complexos acessíveis para iniciantes
+- 🌟 **Democratização do conhecimento** - Por baixar a barreira de entrada no desenvolvimento de plugins
+- 💡 **Inspiração** - Por mostrar que criar plugins Figma está ao alcance de todos
+
+O curso "Build your first plugin" é referência fundamental para quem está começando. Seu compromisso com educação e compartilhamento de conhecimento ajuda a fortalecer e expandir toda a comunidade de desenvolvedores Figma.
+
+Este starter kit se beneficia diretamente dos conceitos e boas práticas ensinados no seu curso. Obrigado por educar e inspirar a próxima geração de criadores de plugins! 🎓
+
+---
+
 ### 💜 Comunidade Open Source
 
 Agradecimento também à incrível comunidade open source que torna projetos como este possíveis. Cada biblioteca, framework e ferramenta usada aqui representa o trabalho coletivo de milhares de desenvolvedores ao redor do mundo.
