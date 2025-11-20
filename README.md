@@ -5,10 +5,15 @@
 ![Vite](https://img.shields.io/badge/Vite-7.2.2-646cff?style=flat-square&logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Plugma](https://img.shields.io/badge/Plugma-2.2.3-ff6c37?style=flat-square)
+![Version](https://img.shields.io/badge/Version-2.12.1-blue?style=flat-square)
 
-**Starter kit profissional e completo para criar plugins do Figma** com React 19 + TypeScript + Vite.
+> **O starter kit mais completo para criar plugins Figma lucrativos** 💰
 
-✨ Inclui sistema de autenticação, internacionalização, monetização e muito mais!
+Lance seu plugin Freemium/SaaS em **dias, não meses**. Tudo que você precisa para monetizar: autenticação, multi-idioma, upgrade screen, e código production-ready.
+
+### 🎯 **Por que este starter kit?**
+
+Economize **40+ horas** de desenvolvimento repetitivo. Comece direto na sua ideia, não em boilerplate.
 
 ## ✨ Preview
 
@@ -38,18 +43,29 @@ Este starter kit vem com um exemplo funcional que demonstra:
 - Zoom automático na área criada
 - Notificação de sucesso
 
-**Diferenciais deste starter kit:**
-- ✅ **Sistema de Autenticação Completo** - Login e registro com JWT
-- ✅ **Internacionalização (i18n)** - Suporte a PT-BR, Español e English
-- ✅ **Tema Dark/Light** - Toggle de tema com persistência
-- ✅ **Tela de Upgrade/Monetização** - Sistema de waitlist para versão Pro
-- ✅ **Menu de Configurações** - Interface profissional e organizada
-- ✅ **Modais de Conversão** - Registro com prova social e copy otimizada
-- ✅ **Helpers tipados** - `sendToPlugin()`, `onMessage()`, `notify()`
-- ✅ **Figma Plugin DS** - Design system oficial integrado
-- ✅ **HMR ativo** - Veja mudanças instantaneamente
-- ✅ **React 19** - Última versão estável
-- ✅ **ESLint configurado** - Código limpo desde o início
+## 🔥 **Diferenciais que vão acelerar seu lançamento**
+
+### 💰 **Pronto para Monetizar**
+- ✅ **Autenticação JWT completa** - Login, registro, persistência
+- ✅ **Upgrade Screen profissional** - Waitlist + CTA otimizado
+- ✅ **Modais de conversão** - Prova social, urgência, copywriting
+
+### 🌍 **Global desde o dia 1**
+- ✅ **Multi-idioma (PT-BR, ES, EN)** - Dropdown compacto
+- ✅ **Fácil adicionar novos idiomas** - Estrutura escalável
+- ✅ **Traduções completas** - Toda UI traduzida
+
+### 🎨 **UI/UX Profissional**
+- ✅ **Dark/Light mode** - Com persistência automática
+- ✅ **Design System Figma** - Componentes nativos
+- ✅ **Versionamento visível** - Versão + data na UI
+- ✅ **Animações suaves** - Transições polidas
+
+### ⚡ **Developer Experience Superior**
+- ✅ **TypeScript estrito** - Zero erros de tipo
+- ✅ **HMR instantâneo** - Vite + React Fast Refresh
+- ✅ **Helpers tipados** - `sendToPlugin()`, `onMessage()`
+- ✅ **ESLint configurado** - Código limpo garantido
 
 ## 📦 O que está incluído
 
@@ -122,23 +138,25 @@ figma-plugin-starterkit/
 └── vite.config.ts                      # Configuração do Vite
 ```
 
-## ⚡ Quick Start
+## ⚡ Quick Start (< 2 minutos)
 
 ```bash
-# 1. Clone ou baixe este repositório
-git clone https://github.com/seu-usuario/figma-plugin-starterkit
+# 1. Clone o repositório
+git clone https://github.com/alexdonega/figma-plugin-starterkit
 cd figma-plugin-starterkit
 
 # 2. Instale dependências
 npm install
 
-# 3. Inicie desenvolvimento
+# 3. Inicie desenvolvimento com HMR
 npm run dev
 
 # 4. No Figma Desktop
 # Plugins > Development > Import plugin from manifest
 # Selecione: dist/manifest.json
 ```
+
+**Pronto!** ✨ Seu plugin está rodando com autenticação, i18n e tudo funcionando.
 
 ## 🎨 Configurações do Projeto
 
@@ -147,7 +165,7 @@ npm run dev
 - ✅ **Nome do plugin:** Figma Plugin StarterKit
 - ✅ **ID único:** `294310321289277500`
 - ✅ **Autor:** Alex Donega
-- ✅ **Versão:** 2.9.0
+- ✅ **Versão:** 2.12.1
 - ✅ **Pasta do projeto:** `figma-plugin-starterkit`
 
 ---
@@ -496,28 +514,44 @@ Suporte nativo a 3 idiomas com estrutura fácil para adicionar mais:
 - Design responsivo
 - Tema escuro/claro
 
-## 🎯 Casos de Uso
+## 🎯 Casos de Uso Reais
 
-Este starter kit é perfeito para:
+Este starter kit foi criado para quem quer **monetizar** e **escalar** globalmente:
 
-✅ **Plugins Freemium** - Sistema de autenticação e upgrade já prontos
-✅ **Plugins SaaS** - Backend integration e user management
-✅ **Plugins Multilíngue** - i18n configurado e funcionando
-✅ **Plugins Comerciais** - Estrutura profissional para venda
-✅ **Prototipagem Rápida** - Comece com tudo pronto
+### 💎 **Ideal para:**
+- ✅ **Plugins Freemium/Pro** - Autenticação + Upgrade screen prontos
+- ✅ **Plugins SaaS** - Backend integration + User management
+- ✅ **Plugins Multilíngue** - 3 idiomas prontos, fácil adicionar mais
+- ✅ **Plugins Comerciais** - Código production-ready, versionamento visível
+- ✅ **MVPs Rápidos** - Lance em dias, valide sua ideia rápido
 
-## 🚀 Próximos Passos
+### 📈 **Economia de Tempo:**
+- ⏱️ **Sem este starter:** 40-60 horas configurando auth, i18n, UI
+- ⚡ **Com este starter:** 2 minutos de setup, foco 100% na sua ideia
 
-Depois de clonar este starter kit:
+## 🚀 Roadmap: Do Clone ao Lançamento
 
-1. ✅ Personalize as configurações (nome, ID, autor)
-2. ✅ Configure sua API backend no `api.config.ts`
-3. ✅ Customize as traduções no `i18n.config.ts`
-4. ✅ Ajuste a prova social no `RegisterModal.tsx`
-5. ✅ Configure o sistema de waitlist no `upgrade.config.ts`
-6. ✅ Implemente sua lógica de negócio
-7. ✅ Teste em múltiplos idiomas
-8. ✅ Publique na Figma Community!
+### **Fase 1: Setup (5 min)**
+1. ✅ Clone e rode `npm install && npm run dev`
+2. ✅ Personalize `manifest.json` (nome, ID, autor)
+3. ✅ Teste no Figma - tudo já funciona!
+
+### **Fase 2: Customização (30-60 min)**
+4. ✅ Configure sua API em `api.config.ts`
+5. ✅ Ajuste traduções em `i18n.config.ts`
+6. ✅ Personalize prova social em `RegisterModal.tsx`
+7. ✅ Configure waitlist em `upgrade.config.ts`
+
+### **Fase 3: Desenvolvimento (seu tempo)**
+8. ✅ Implemente sua lógica de negócio única
+9. ✅ Teste em múltiplos idiomas
+10. ✅ Valide com beta testers
+
+### **Fase 4: Lançamento 🚀**
+11. ✅ Build de produção (`npm run build`)
+12. ✅ Publique na Figma Community
+13. ✅ Lance sua campanha de waitlist
+14. ✅ Monetize! 💰
 
 ## 📄 Licença
 
@@ -539,6 +573,24 @@ Contribuições são bem-vindas! Se você tem sugestões de melhorias:
 
 ---
 
-**Criado com ❤️ para a comunidade Figma**
+## 💬 Feedback & Comunidade
 
-⭐ Se este starter kit foi útil, considere dar uma estrela no repositório!
+**Encontrou um bug?** Abra uma [issue](https://github.com/alexdonega/figma-plugin-starterkit/issues)
+
+**Tem sugestões?** Pull requests são bem-vindos!
+
+**Criou algo incrível?** Compartilhe nos comentários!
+
+---
+
+<div align="center">
+
+### ⭐ Se este starter kit economizou seu tempo, dê uma estrela!
+
+**Criado com ❤️ por [Alex Donega](https://github.com/alexdonega)**
+
+*Ajudando desenvolvedores a lançar plugins Figma lucrativos mais rápido*
+
+[⭐ Star no GitHub](https://github.com/alexdonega/figma-plugin-starterkit) • [🐛 Report Bug](https://github.com/alexdonega/figma-plugin-starterkit/issues) • [💡 Request Feature](https://github.com/alexdonega/figma-plugin-starterkit/issues)
+
+</div>
