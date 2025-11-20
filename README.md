@@ -775,9 +775,9 @@ Este starter kit foi criado para quem quer **monetizar** e **escalar** globalmen
 
 Este projeto não seria possível sem o apoio e mentoria de pessoas excepcionais:
 
-### 🌟 **Diego Carmona** e **Carmona Ventures**
+### 🌟 **[Diego Carmona](https://github.com/DiegoCarmona)** e **[Carmona Ventures](https://www.carmonaventures.com)**
 
-Um agradecimento especial a **Diego Carmona** e **Carmona Ventures** por acreditarem neste projeto desde o início.
+Um agradecimento especial a **[Diego Carmona](https://github.com/DiegoCarmona)** e **[Carmona Ventures](https://www.carmonaventures.com)** por acreditarem neste projeto desde o início.
 
 Diego, sua generosidade em compartilhar tempo, conhecimento e direção estratégica foi fundamental para transformar uma ideia em realidade. Sua visão de negócio, experiência com SaaS e capacidade de enxergar potencial onde outros veem obstáculos são verdadeiramente inspiradoras.
 
@@ -789,7 +789,7 @@ Diego, sua generosidade em compartilhar tempo, conhecimento e direção estraté
 
 > *"Não construa apenas features. Construa soluções que as pessoas queiram pagar."* - Uma das muitas lições de Diego que moldaram este projeto.
 
-A **Carmona Ventures** representa mais do que investimento - representa uma parceria que combina capital intelectual, mentoria ativa e uma visão compartilhada de criar produtos que importam.
+A **[Carmona Ventures](https://www.carmonaventures.com)** representa mais do que investimento - representa uma parceria que combina capital intelectual, mentoria ativa e uma visão compartilhada de criar produtos que importam.
 
 Este starter kit é resultado direto dessa colaboração: um produto que não só acelera desenvolvimento, mas que ensina boas práticas de negócio, monetização e pensamento estratégico desde o primeiro commit.
 
