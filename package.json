@@ -1,6 +1,6 @@
 {
   "name": "figma-plugin-starterkit",
-  "version": "1.3.1",
+  "version": "2.12.1",
   "description": "Starter kit completo para criar plugins do Figma com React + TypeScript + Vite",
   "scripts": {
     "dev": "plugma dev",
@@ -19,7 +19,7 @@
     "template",
     "boilerplate"
   ],
-  "author": "Figma Plugin StarterKit Contributors",
+  "author": "Alex Donega",
   "license": "MIT",
   "repository": {
     "type": "git",

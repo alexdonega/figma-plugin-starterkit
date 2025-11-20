@@ -2,8 +2,8 @@ import { onMessage, notify } from '../utils/helpers'
 
 export default function () {
   figma.showUI(__html__, {
-    width: 320,
-    height: 400,
+    width: 500,
+    height: 700,
     themeColors: true,
   })
 

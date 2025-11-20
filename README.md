@@ -6,7 +6,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Plugma](https://img.shields.io/badge/Plugma-2.2.3-ff6c37?style=flat-square)
 
-Starter kit completo para criar plugins do Figma com React 19 + TypeScript + Vite.
+**Starter kit profissional e completo para criar plugins do Figma** com React 19 + TypeScript + Vite.
+
+✨ Inclui sistema de autenticação, internacionalização, monetização e muito mais!
 
 ## ✨ Preview
 
@@ -37,6 +39,12 @@ Este starter kit vem com um exemplo funcional que demonstra:
 - Notificação de sucesso
 
 **Diferenciais deste starter kit:**
+- ✅ **Sistema de Autenticação Completo** - Login e registro com JWT
+- ✅ **Internacionalização (i18n)** - Suporte a PT-BR, Español e English
+- ✅ **Tema Dark/Light** - Toggle de tema com persistência
+- ✅ **Tela de Upgrade/Monetização** - Sistema de waitlist para versão Pro
+- ✅ **Menu de Configurações** - Interface profissional e organizada
+- ✅ **Modais de Conversão** - Registro com prova social e copy otimizada
 - ✅ **Helpers tipados** - `sendToPlugin()`, `onMessage()`, `notify()`
 - ✅ **Figma Plugin DS** - Design system oficial integrado
 - ✅ **HMR ativo** - Veja mudanças instantaneamente
@@ -45,6 +53,7 @@ Este starter kit vem com um exemplo funcional que demonstra:
 
 ## 📦 O que está incluído
 
+### 🎨 Core
 - ⚛️ **React 19** - Última versão do React
 - 📘 **TypeScript** - Tipagem estática
 - ⚡ **Vite** - Build rápido e HMR
@@ -53,22 +62,64 @@ Este starter kit vem com um exemplo funcional que demonstra:
 - ✅ **ESLint** - Linting configurado
 - 🛠️ **Helpers** - Funções auxiliares para comunicação UI ↔ Main
 
+### 🔐 Sistema de Autenticação
+- 🔑 **Login Modal** - Interface moderna com validação
+- ✨ **Registro Modal** - Com prova social e copy de conversão
+- 🎫 **JWT Authentication** - Gerenciamento de tokens
+- 💾 **Figma Storage** - Persistência de sessão usando `figma.clientStorage`
+- 👤 **User Profile** - Exibição de dados do usuário logado
+- 🚪 **Logout** - Sistema completo de saída
+
+### 🌍 Internacionalização (i18n)
+- 🇧🇷 **Português (Brasil)** - Tradução completa
+- 🇪🇸 **Español** - Tradução completa
+- 🇺🇸 **English** - Tradução completa
+- 🔄 **Seletor de Idioma** - Troca fácil entre idiomas
+- 💾 **Persistência** - Salva preferência do usuário
+
+### 🎨 Interface & UX
+- 🌓 **Dark/Light Mode** - Toggle de tema com persistência
+- ⚙️ **Menu de Configurações** - Interface organizada e intuitiva
+- 📱 **Responsive Design** - Layout adaptável
+- ✨ **Prova Social** - Avatares, estrelas e números de usuários
+- 🎯 **Modais Profissionais** - Design polido e funcional
+
+### 💰 Monetização
+- 🚀 **Upgrade Screen** - Tela de upgrade para versão Pro
+- 📝 **Waitlist System** - Sistema de lista de espera
+- 💎 **Botão Upgrade** - Call-to-action destacado
+- 📊 **Planos & Preços** - Estrutura pronta para monetização
+
 ## 🎯 Estrutura do Projeto
 
 ```
 figma-plugin-starterkit/
 ├── src/
 │   ├── main/
-│   │   └── index.ts          # Código que roda no contexto do Figma (acessa a API)
+│   │   └── index.ts                    # Código que roda no contexto do Figma
 │   ├── ui/
-│   │   ├── App.tsx           # Componente principal da interface
-│   │   ├── main.tsx          # Entry point da UI
-│   │   └── index.html        # HTML base
+│   │   ├── components/                 # Componentes React
+│   │   │   ├── LoginModal.tsx          # Modal de login
+│   │   │   ├── RegisterModal.tsx       # Modal de registro com prova social
+│   │   │   ├── SettingsMenu.tsx        # Menu de configurações
+│   │   │   ├── TutorialButton.tsx      # Botão de tutorial
+│   │   │   └── UpgradeButton.tsx       # Botão de upgrade
+│   │   ├── screens/
+│   │   │   └── UpgradeScreen.tsx       # Tela de upgrade/waitlist
+│   │   ├── App.tsx                     # Componente principal
+│   │   ├── main.tsx                    # Entry point da UI
+│   │   └── index.html                  # HTML base
+│   ├── services/
+│   │   └── auth.service.ts             # Serviço de autenticação (login, register, JWT)
+│   ├── config/
+│   │   ├── i18n.config.ts              # Configuração de idiomas (PT-BR, ES, EN)
+│   │   ├── api.config.ts               # Configuração da API backend
+│   │   └── upgrade.config.ts           # Configuração do sistema de upgrade
 │   └── utils/
-│       └── helpers.ts        # Funções auxiliares de comunicação
-├── manifest.json             # Configurações do plugin
-├── package.json              # Dependências e scripts
-└── vite.config.ts           # Configuração do Vite
+│       └── helpers.ts                  # Funções auxiliares de comunicação
+├── manifest.json                       # Configurações do plugin
+├── package.json                        # Dependências e scripts
+└── vite.config.ts                      # Configuração do Vite
 ```
 
 ## ⚡ Quick Start
@@ -89,38 +140,15 @@ npm run dev
 # Selecione: dist/manifest.json
 ```
 
-## 🎨 Como Personalizar Este Template
+## 🎨 Configurações do Projeto
 
-**IMPORTANTE:** Antes de começar a desenvolver seu plugin, você DEVE personalizar estas configurações:
+### ✅ Personalizações Concluídas:
 
-### ✅ Checklist de Personalização:
-
-- [ ] **Mudar nome do plugin:**
-  - ⚠️ **ATENÇÃO:** Mude em AMBOS os arquivos para manter sincronizado!
-  - No `package.json`: altere `"name": "figma-plugin-starterkit"`
-  - No `manifest.json`: altere `"name": "Figma Plugin StarterKit"`
-
-- [ ] **Gerar novo ID único do plugin:**
-  - ⚠️ **IMPORTANTE:** No `manifest.json`, substitua o `"id"` atual
-  - ⚠️ Cada plugin precisa de um ID único! Não use o ID padrão deste template
-  - Para gerar um novo ID único, use um destes métodos:
-    - Método 1: Abra o console do navegador e execute:
-      ```javascript
-      Math.floor(Math.random() * 1000000000000000000).toString()
-      ```
-    - Método 2: Visite a [documentação do Figma](https://www.figma.com/plugin-docs/manifest/)
-
-- [ ] **Atualizar informações do autor:**
-  - No `package.json`: preencha `"author": "Seu Nome"`
-  - No `package.json`: confirme `"license": "MIT"` (ou altere conforme necessário)
-
-- [ ] **Corrigir título da janela:**
-  - No `src/ui/index.html`: altere `<title>Figma Plugin StarterKit</title>`
-
-- [x] **Renomear pasta do projeto:**
-  - ✅ Pasta renomeada para `figma-plugin-starterkit`
-
-- [ ] **Deletar este checklist** quando terminar de personalizar! ✨
+- ✅ **Nome do plugin:** Figma Plugin StarterKit
+- ✅ **ID único:** `294310321289277500`
+- ✅ **Autor:** Alex Donega
+- ✅ **Versão:** 2.9.0
+- ✅ **Pasta do projeto:** `figma-plugin-starterkit`
 
 ---
 
@@ -184,6 +212,144 @@ onMessage({
     notify('Retângulo criado!')
   }
 })
+```
+
+## 🔐 Sistema de Autenticação
+
+### Como usar o serviço de autenticação
+
+O starter kit já vem com um sistema de autenticação completo. Para usá-lo:
+
+#### 1. Configure sua API backend
+
+Edite `src/config/api.config.ts`:
+
+```typescript
+export const API_CONFIG = {
+  BASE_URL: 'https://sua-api.com',  // Altere para sua URL
+  ENDPOINTS: {
+    LOGIN: '/auth/login',
+    REGISTER: '/auth/register',
+    VALIDATE: '/auth/validate',
+  }
+}
+```
+
+#### 2. Use as funções de autenticação
+
+```typescript
+import { login, register, logout, isAuthenticated, getCurrentUser } from '../services/auth.service'
+
+// Fazer login
+const response = await login('usuario@email.com', 'senha123')
+if (response.success) {
+  console.log('Usuário logado:', response.user)
+}
+
+// Registrar novo usuário
+const response = await register('Nome', 'email@exemplo.com', 'senha123')
+
+// Verificar se está autenticado
+const logado = await isAuthenticated()
+
+// Obter usuário atual
+const user = await getCurrentUser()
+
+// Fazer logout
+await logout()
+```
+
+#### 3. Fazer requisições autenticadas
+
+```typescript
+import { authenticatedFetch } from '../services/auth.service'
+
+const response = await authenticatedFetch('/api/meu-endpoint', {
+  method: 'POST',
+  body: JSON.stringify({ dados: 'exemplo' })
+})
+```
+
+### Personalizar os Modais
+
+Os modais de Login e Registro estão em:
+- `src/ui/components/LoginModal.tsx`
+- `src/ui/components/RegisterModal.tsx`
+
+Você pode personalizar:
+- Textos e traduções
+- Prova social (números, avatares, estrelas)
+- Campos do formulário
+- Validações
+- Estilos visuais
+
+## 🌍 Internacionalização (i18n)
+
+### Como adicionar um novo idioma
+
+1. Edite `src/config/i18n.config.ts`
+2. Adicione o código do idioma no tipo `Language`
+3. Adicione as traduções no objeto `translations`
+4. Adicione a opção em `languageOptions`
+
+Exemplo adicionando Francês:
+
+```typescript
+export type Language = 'pt-BR' | 'es' | 'en' | 'fr'
+
+export const translations: Record<Language, Translations> = {
+  // ... outros idiomas
+  'fr': {
+    createRectangles: 'Créer des Rectangles',
+    quantity: 'Quantité',
+    // ... demais traduções
+  }
+}
+
+export const languageOptions: LanguageOption[] = [
+  // ... outros idiomas
+  { code: 'fr', label: 'Français', flag: '🇫🇷' }
+]
+```
+
+### Como usar traduções nos componentes
+
+```typescript
+import { translations } from '../config/i18n.config'
+
+function MeuComponente({ currentLanguage }) {
+  const t = translations[currentLanguage]
+
+  return <h1>{t.createRectangles}</h1>
+}
+```
+
+## 💰 Sistema de Monetização
+
+### Configurar Waitlist/Upgrade
+
+Edite `src/config/upgrade.config.ts`:
+
+```typescript
+export const UPGRADE_CONFIG = {
+  WAITLIST_FORM_URL: 'https://sua-url-de-waitlist.com',
+  CONTACT_EMAIL: 'seu@email.com',
+  PRO_FEATURES: [
+    'Funcionalidade Premium 1',
+    'Funcionalidade Premium 2',
+    // ... adicione suas features
+  ]
+}
+```
+
+### Mostrar tela de upgrade
+
+A tela de upgrade já está implementada e pode ser acessada pelo botão "⭐ Upgrade" no header.
+
+Para programaticamente mostrar a tela:
+
+```typescript
+setCurrentScreen('upgrade')  // No App.tsx
 ```
 
 ## 📝 Exemplo de Uso
@@ -263,8 +429,8 @@ Edite `src/main/index.ts`:
 
 ```typescript
 figma.showUI(__html__, {
-  width: 400,    // Largura
-  height: 600,   // Altura
+  width: 500,    // Largura (padrão: 500px)
+  height: 700,   // Altura (padrão: 700px)
   themeColors: true
 })
 ```
@@ -296,10 +462,83 @@ Edite `manifest.json`:
 1. Execute `npm run lint` para ver os erros
 2. Execute `npm run lint:fix` para corrigir automaticamente
 
+## ✨ Features em Destaque
+
+### 🎨 Menu de Configurações Profissional
+O menu de configurações (⚙️) centraliza todas as opções importantes:
+- **Idioma**: Português (Brasil), Español, English
+- **Tema**: Dark/Light com toggle visual
+- **Conta**: Login, Criar conta, ou perfil do usuário logado
+
+### 🔐 Autenticação Robusta
+- Login e Registro com validação completa
+- Persistência de sessão usando `figma.clientStorage`
+- JWT token management
+- Modal de registro com prova social profissional
+- Sistema de logout seguro
+
+### 🌍 Multi-idioma desde o início
+Suporte nativo a 3 idiomas com estrutura fácil para adicionar mais:
+- 🇧🇷 Português (Brasil)
+- 🇪🇸 Español
+- 🇺🇸 English
+
+### 💎 Sistema de Monetização
+- Tela de Upgrade com design profissional
+- Sistema de Waitlist integrado
+- Botão CTA destacado no header
+- Pronto para integrar pagamentos
+
+### 📱 UX/UI Polida
+- Modais modernos com overlay e blur
+- Animações e transições suaves
+- Prova social com avatares e estrelas
+- Design responsivo
+- Tema escuro/claro
+
+## 🎯 Casos de Uso
+
+Este starter kit é perfeito para:
+
+✅ **Plugins Freemium** - Sistema de autenticação e upgrade já prontos
+✅ **Plugins SaaS** - Backend integration e user management
+✅ **Plugins Multilíngue** - i18n configurado e funcionando
+✅ **Plugins Comerciais** - Estrutura profissional para venda
+✅ **Prototipagem Rápida** - Comece com tudo pronto
+
+## 🚀 Próximos Passos
+
+Depois de clonar este starter kit:
+
+1. ✅ Personalize as configurações (nome, ID, autor)
+2. ✅ Configure sua API backend no `api.config.ts`
+3. ✅ Customize as traduções no `i18n.config.ts`
+4. ✅ Ajuste a prova social no `RegisterModal.tsx`
+5. ✅ Configure o sistema de waitlist no `upgrade.config.ts`
+6. ✅ Implemente sua lógica de negócio
+7. ✅ Teste em múltiplos idiomas
+8. ✅ Publique na Figma Community!
+
 ## 📄 Licença
 
-Este é um starter kit livre para uso. Crie seu plugin e divirta-se! 🎉
+MIT License - Este é um starter kit livre para uso comercial e pessoal.
+
+Crie seu plugin, monetize e divirta-se! 🎉
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Se você tem sugestões de melhorias:
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
 
 ---
 
 **Criado com ❤️ para a comunidade Figma**
+
+⭐ Se este starter kit foi útil, considere dar uma estrela no repositório!

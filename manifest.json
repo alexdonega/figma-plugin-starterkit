@@ -1,6 +1,6 @@
 {
   "name": "Figma Plugin StarterKit",
-  "id": "1572053271547477073",
+  "id": "294310321289277500",
   "api": "1.0.0",
   "main": "src/main/index.ts",
   "ui": "src/ui/main.tsx",
@@ -12,7 +12,8 @@
   ],
   "networkAccess": {
     "allowedDomains": [
-      "none"
-    ]
+      "https://api.exemplo.com"
+    ],
+    "reasoning": "Plugin precisa se comunicar com API backend para autenticação e features premium"
   }
 }

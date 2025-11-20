@@ -3,31 +3,31 @@
  * Simplifica o envio de mensagens tipadas
  */
 
-// Tipos para as mensagens
-export type PluginMessage = {
-  type: string
-  count?: number
-  color?: string
-  [key: string]: unknown
+// Tipos para as mensagens (Discriminated Union para type safety)
+export type CreateRectanglesMessage = {
+  type: 'create-rectangles'
+  count: number
+  color: 'orange' | 'blue' | 'red' | 'green'
 }
 
-export type MessageHandler = (msg: PluginMessage) => void
+// Adicione novos tipos de mensagem aqui
+// export type DeleteSelectionMessage = { type: 'delete-selection' }
+
+export type PluginMessage = CreateRectanglesMessage
+
+export type MessageHandler<T extends PluginMessage = PluginMessage> = (msg: T) => void
 
 /**
- * Envia mensagem da UI para o Main (Figma API)
- * @param type - Tipo da mensagem
- * @param data - Dados adicionais
+ * Envia mensagem da UI para o Main (Figma API) - Type Safe
+ * @param message - Mensagem tipada
  *
  * @example
- * sendToPlugin('create-rectangles', { count: 5, color: 'blue' })
+ * sendToPlugin({ type: 'create-rectangles', count: 5, color: 'blue' })
  */
-export const sendToPlugin = (type: string, data?: Record<string, unknown>): void => {
+export const sendToPlugin = (message: PluginMessage): void => {
   parent.postMessage(
     {
-      pluginMessage: {
-        type,
-        ...data,
-      },
+      pluginMessage: message,
     },
     '*'
   )
