@@ -818,9 +818,43 @@ Este starter kit é resultado direto dessa colaboração: um produto que não s�
 
 ---
 
+### 🛠️ **Gavin McFarland** - Criador do [Plugma](https://www.plugma.dev/)
+
+Agradecimento especial ao **[Gavin McFarland](https://github.com/gavinmcfarland)** pela criação do **[Plugma](https://github.com/gavinmcfarland/plugma)**, a CLI moderna que revolucionou o desenvolvimento de plugins para Figma.
+
+Gavin, seu trabalho com o Plugma não apenas simplificou o processo de build e desenvolvimento, mas definiu um novo padrão de qualidade para ferramentas de desenvolvimento na comunidade Figma.
+
+**Obrigado por:**
+- 🔧 **Plugma CLI** - Ferramenta que tornou o desenvolvimento de plugins Figma moderno e eficiente
+- 📺 **Conteúdo no YouTube** - Tutoriais e conhecimento compartilhado generosamente com a comunidade
+- 📚 **Documentação exemplar** - Por mostrar como ferramentas devem ser documentadas
+- 🌟 **Visão de futuro** - Por enxergar a necessidade de modernizar o ecossistema de desenvolvimento Figma
+
+O Plugma é a base que torna este starter kit possível. Sem sua contribuição open source, estaríamos ainda lidando com configurações complexas de build. Você elevou o nível de toda a comunidade!
+
+---
+
+### 🎨 **Thomas Lowry** - Criador do [figma-plugin-ds](https://github.com/thomas-lowry/figma-plugin-ds)
+
+Um agradecimento muito especial ao **[Thomas Lowry](https://github.com/thomas-lowry)** pela criação do **[figma-plugin-ds](https://github.com/thomas-lowry/figma-plugin-ds)**, o design system que traz consistência e profissionalismo aos plugins Figma.
+
+Thomas, seu trabalho meticuloso em criar componentes que seguem perfeitamente o design system do Figma é admirável. Você tornou possível para desenvolvedores criarem interfaces que parecem nativas do Figma.
+
+**Obrigado por:**
+- 🎨 **Design System completo** - Componentes que mantêm a consistência visual do Figma
+- 💎 **Qualidade impecável** - Atenção aos detalhes que faz toda diferença na UX
+- 📖 **Documentação clara** - Facilitando a adoção e uso correto dos componentes
+- 🤝 **Espírito open source** - Por compartilhar este trabalho valioso com toda comunidade
+
+O figma-plugin-ds é o que dá a este starter kit sua aparência profissional e nativa. Sua contribuição permite que desenvolvedores foquem na lógica de negócio enquanto mantêm UI de alta qualidade.
+
+---
+
 ### 💜 Comunidade Open Source
 
 Agradecimento também à incrível comunidade open source que torna projetos como este possíveis. Cada biblioteca, framework e ferramenta usada aqui representa o trabalho coletivo de milhares de desenvolvedores ao redor do mundo.
+
+Projetos como **React**, **TypeScript**, **Vite**, e tantos outros são a fundação sobre a qual construímos. Obrigado a todos os mantenedores, contribuidores e apoiadores do movimento open source! 🙏
 
 ---
 
