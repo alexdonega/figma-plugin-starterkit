@@ -792,6 +792,38 @@ Este starter kit foi criado para quem quer **monetizar** e **escalar** globalmen
 
 ---
 
+## 🙏 Agradecimentos
+
+Este projeto não seria possível sem o apoio e mentoria de pessoas excepcionais:
+
+### 🌟 **Diego Carmona** e **Carmona Ventures**
+
+Um agradecimento especial a **Diego Carmona** e **Carmona Ventures** por acreditarem neste projeto desde o início.
+
+Diego, sua generosidade em compartilhar tempo, conhecimento e direção estratégica foi fundamental para transformar uma ideia em realidade. Sua visão de negócio, experiência com SaaS e capacidade de enxergar potencial onde outros veem obstáculos são verdadeiramente inspiradoras.
+
+**Obrigado por:**
+- 🎯 **Tempo investido** - Reuniões, mentorias e conversas que moldaram a direção do projeto
+- 📚 **Ensinamentos valiosos** - Lições sobre produto, monetização e crescimento que vão além do código
+- 🧭 **Direção estratégica** - Insights que transformaram um starter kit técnico em um produto com propósito comercial
+- 💡 **Visão de mercado** - Por mostrar como criar produtos que resolvem problemas reais e geram valor
+
+> *"Não construa apenas features. Construa soluções que as pessoas queiram pagar."* - Uma das muitas lições de Diego que moldaram este projeto.
+
+A **Carmona Ventures** representa mais do que investimento - representa uma parceria que combina capital intelectual, mentoria ativa e uma visão compartilhada de criar produtos que importam.
+
+Este starter kit é resultado direto dessa colaboração: um produto que não só acelera desenvolvimento, mas que ensina boas práticas de negócio, monetização e pensamento estratégico desde o primeiro commit.
+
+**Diego, obrigado por acreditar, investir e guiar. Você não apenas liberou tempo para este projeto - você liberou potencial.** 🚀
+
+---
+
+### 💜 Comunidade Open Source
+
+Agradecimento também à incrível comunidade open source que torna projetos como este possíveis. Cada biblioteca, framework e ferramenta usada aqui representa o trabalho coletivo de milhares de desenvolvedores ao redor do mundo.
+
+---
+
 <p align="center">
   <sub>
     Feito com 💜 no Brasil 🇧🇷 por <a href="https://github.com/alexdonega">Alex Donega</a>
