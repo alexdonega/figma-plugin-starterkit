@@ -449,6 +449,8 @@ Abra uma [Issue](https://github.com/alexdonega/figma-plugin-starterkit/issues) o
 
 Contribuições são **sempre bem-vindas**! Este projeto não existiria sem a comunidade. 💜
 
+📖 **Leia o guia completo**: [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ### 🐛 Reportar Bugs
 
 Encontrou um bug? Ajude-nos a consertá-lo!
@@ -710,7 +712,7 @@ git fetch upstream
 git merge upstream/main
 ```
 
-Recomendamos acompanhar o [CHANGELOG](https://github.com/alexdonega/figma-plugin-starterkit/releases) para breaking changes.
+Recomendamos acompanhar o [CHANGELOG](CHANGELOG.md) para breaking changes e novidades.
 </details>
 
 <details>
